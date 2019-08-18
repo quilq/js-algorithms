@@ -1,8 +1,7 @@
 class Graph { 
     constructor() { 
       this.numberOfNodes = 0;
-      this.adjacentList = {
-      }; 
+      this.adjacentList = {}; 
     } 
     addVertex(node)  {
       if (!this.adjacentList[node]){
