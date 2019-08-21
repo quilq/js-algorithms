@@ -51,7 +51,7 @@ class Node {
       }
       return null
     }
-    // remove
+    // remove??
   }
   
   const tree = new BinarySearchTree();
@@ -63,8 +63,8 @@ class Node {
   tree.insert(15)
   tree.insert(1)
   // JSON.stringify(traverse(tree.root))
-  tree.lookup(15);
-  tree.lookup(7);
+  // tree.lookup(15);
+  // tree.lookup(7);
   
   //     9
   //  4     20
